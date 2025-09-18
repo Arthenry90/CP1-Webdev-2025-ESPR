@@ -37,7 +37,11 @@
 
             tempoTotal = document.getElementById("tempoTotal")
 
+            if (totalHoras < 0){
+                totalHoras = totalHoras * -1
+            }
             if (totalHoras < 10){
+                console.log(totalHoras)
                 totalHoras = "0" + totalHoras
             }
 
