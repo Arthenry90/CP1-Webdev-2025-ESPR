@@ -9,6 +9,10 @@
 
             totalFinal = ((inputHorasFim.value * 60) + parseInt(inputMinutosFim.value))
 
+            if (totalFinal < totalInicial) {
+                totalFinal += 24 * 60; 
+            }
+            
             totalDeMinutos = totalFinal - totalInicial
 
             restoMinutos = totalDeMinutos % 60
@@ -34,5 +38,5 @@
             }
             tempoTotal.innerText = `Duracao: ${totalHoras}:${restoMinutos}`
 
-            console.log("ULTIMO PRINT". totalHoras, restoMinutos)
+            console.log("ULTIMO PRINT", totalHoras, restoMinutos)
         }
