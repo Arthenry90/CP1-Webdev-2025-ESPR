@@ -1,5 +1,6 @@
-Artur Henrique Siqueira - RM566986 
+## Atividade avaliativa CP1 Web Dev
 
-Gabriel Gomes Caramico - RM568409
-
-Davi de Souza Malta - RM560327
+Atividade referente a matéria de desenvolvimento web.
+- Artur Henrique Siqueira - RM566986 
+- Gabriel Gomes Caramico - RM568409
+- Davi de Souza Malta - RM560327
